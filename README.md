@@ -48,6 +48,6 @@ desertlion.identifyUser({
 
 ## Open Source
 
-[css-selector-generator](https://github.com/fczbkk/css-selector-generator) by [fczbkk](https://github.com/fczbkk) MIT-licensed
-[error-stack-parser](https://github.com/stacktracejs/error-stack-parser) by [stacktracejs](https://github.com/stacktracejs) MIT-licensed
-[rrweb](https://github.com/rrweb-io/rrweb) by [rrweb-io](https://github.com/rrweb-io) MIT-licensed
+- [css-selector-generator](https://github.com/fczbkk/css-selector-generator) by [fczbkk](https://github.com/fczbkk) MIT-licensed
+- [error-stack-parser](https://github.com/stacktracejs/error-stack-parser) by [stacktracejs](https://github.com/stacktracejs) MIT-licensed
+- [rrweb](https://github.com/rrweb-io/rrweb) by [rrweb-io](https://github.com/rrweb-io) MIT-licensed
