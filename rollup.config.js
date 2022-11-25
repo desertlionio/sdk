@@ -24,7 +24,6 @@ export default {
     dotenv(),
     typescript({ useTsconfigDeclarationDir: true }),
     commonjs({ extensions: ['.js', '.ts'] }),
-
     terser({
       compress: true,
       mangle: {
