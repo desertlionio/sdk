@@ -41,9 +41,7 @@
     "debugger",
     "debug"
   ],
-  "dependencies": {
-    "css-selector-generator": "^3.6.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "error-stack-parser": "^2.1.4",
     "rrweb": "1.1.3",
