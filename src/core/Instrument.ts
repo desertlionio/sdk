@@ -35,7 +35,7 @@ export class Instrument {
     }
 
     window?.addEventListener('error', event => {
-      if (/Script error\.?/.test(event.error.message)) {
+      if (/Script error\.?/.test(event?.error?.message)) {
         return false;
       }
 
