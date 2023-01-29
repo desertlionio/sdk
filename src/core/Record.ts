@@ -11,8 +11,6 @@ import { issuesPlugin } from '../rrweb/plugins/issues';
 
 import state from './State';
 
-const SYNC_MILISECONDS = 3 * 1000;
-
 export class Recorder {
   constructor(private params: { handleCheckout: () => void }) {}
 
@@ -23,11 +21,10 @@ export class Recorder {
           events: [...state.state.events, event],
         });
 
-        if (isCheckout) {
+        if (state.state.events?.length > 10) {
           this.params.handleCheckout();
         }
       },
-      checkoutEveryNms: SYNC_MILISECONDS,
       plugins: [
         routerPlugin,
         metaPlugin,
