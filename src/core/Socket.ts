@@ -60,9 +60,11 @@ export class Socket {
         await this.waitForOpenConnection().catch(() => {
           return;
         });
-        this.socket.send(JSON.stringify(payload));
+        if (this.socket.readyState === this.socket.OPEN) {
+          this.socket?.send(JSON.stringify(payload));
+        }
       } catch (error) {
-        console.error(error);
+        // silently ignore
       }
     } else {
       this.socket.send(JSON.stringify(payload));
@@ -120,7 +122,6 @@ export class Socket {
     if (!state.state.sessionId) {
       return;
     }
-
 
     await this.sendMessage({
       event: 'sync',
