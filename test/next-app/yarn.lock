@@ -4396,8 +4396,8 @@ vizion@~2.2.1:
     js-git "^0.7.8"
 
 vm2@^3.9.8:
-  version "3.9.9"
-  resolved "https://registry.npmjs.org/vm2/-/vm2-3.9.9.tgz"
+  version "3.9.16"
+  resolved "https://registry.yarnpkg.com/vm2/-/vm2-3.9.16.tgz#0fbc2a265f7bf8b837cea6f4a908f88a3f93b8e6"
   dependencies:
     acorn "^8.7.0"
     acorn-walk "^8.2.0"
